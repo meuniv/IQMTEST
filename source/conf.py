@@ -51,8 +51,8 @@ html_static_path = ['_static']
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.imgmath',
-    'sphinxcontrib.yt'
+    'sphinx.ext.imgmath'
+#    'sphinxcontrib.yt'
 ]
 
 latex_elements = {
