@@ -52,7 +52,7 @@ html_static_path = ['_static']
 # ones.
 extensions = [
     'sphinx.ext.imgmath'
-#    'sphinxcontrib.yt'
+    'sphinxcontrib.yt'
 ]
 
 latex_elements = {
