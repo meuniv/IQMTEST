@@ -67,3 +67,5 @@ imgmath_latex_preamble=r'\usepackage{physics}'
 imgmath_image_format='svg'
 
 
+master_doc = 'index'
+
