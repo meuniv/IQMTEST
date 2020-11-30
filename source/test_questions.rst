@@ -5,7 +5,8 @@ Questions
 	2. True and nobody really cares about the fact we can have energy level  degeneracy
 	3. False: we must take the degeneracy into account
 	4. None of the other answers is correct
-72. This fall, I enjoyed Thermodynamics and Statistical Mechanics...
+
+2. This fall, I enjoyed Thermodynamics and Statistical Mechanics...
 	1. A lot
 	2. Very much
 	3. Of course
