@@ -8,7 +8,6 @@ Welcome to IQM Spring 2020's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
    test_questions
 
