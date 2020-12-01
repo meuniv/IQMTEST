@@ -12,6 +12,8 @@ Questions
 	3. Of course
 	4. Certainly :math:`\bra{\psi}` is definitely not the same as :math:`\ket{\phi}`
 
+.. raw:: html
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/c1R9PHHrS_0?start=9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 	     
 .. attention::
@@ -19,6 +21,9 @@ Questions
    
 
 .. raw:: html
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/c1R9PHHrS_0?start=9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+    <div style="margin-top:10px;">
+      <iframe width="560" height="315" src="http://www.youtube.com/embed/_EjisXtMy_Y" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
 	     
