@@ -58,15 +58,18 @@ html_static_path = ['_static']
 # ones.
 extensions = [
     'sphinx.ext.imgmath',
-    'sphinxcontrib.yt',
-    'sphinx.ext.todo',
-    'sphinx.ext.githubpages',
-    'edx_theme'
+#    'sphinxcontrib.yt',
+#    'sphinx.ext.todo',
+#    'sphinx.ext.githubpages',
+#    'edx_theme'
 ]
 
 latex_elements = {
     'preamble': r'''
 \usepackage{physics}
+latex_elements = {
+  'extraclassoptions': 'openany,oneside'
+}
 ''',
 }
 
@@ -79,15 +82,20 @@ imgmath_image_format='svg'
 master_doc = 'index'
 
 latex_documents = [
-    (master_doc, 'edx-sphinx-theme.tex', 'edx-sphinx-theme Documentation',
+    (master_doc, 'edx-sphinx-theme.tex', 'Introduction to Quantum Mechanics',
      author, 'manual'),
 ]
 
-import edx_theme
-import os
+#import edx_theme
+#import os
 
 #extensions = ['edx_theme']
 
-html_theme = 'edx_theme'
-html_theme_path = [edx_theme.get_html_theme_path()]
-html_favicon = os.path.join(html_theme_path[0], 'edx_theme', 'static', 'css', 'favicon.ico')
+#html_theme = 'edx_theme'
+#html_theme_path = [edx_theme.get_html_theme_path()]
+#html_favicon = os.path.join(html_theme_path[0], 'edx_theme', 'static', 'css', 'favicon.ico')
+
+html_logo =  '_images/logo-IQM.png'
+logo_only = True
+display_version = True
+numfig = False
