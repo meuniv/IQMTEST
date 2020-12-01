@@ -93,7 +93,7 @@ latex_documents = [
 #html_theme_path = [edx_theme.get_html_theme_path()]
 #html_favicon = os.path.join(html_theme_path[0], 'edx_theme', 'static', 'css', 'favicon.ico')
 
-html_logo =  '_images/logo-IQM.png'
+html_logo =  '_images/iqm_logo.png'
 logo_only = True
 display_version = True
 numfig = False
