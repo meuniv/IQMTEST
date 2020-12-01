@@ -41,6 +41,8 @@ exclude_patterns = []
 #
 #html_theme = 'sphinx_rtd_theme'
 html_theme = 'edx-theme'
+html_theme_path = [edx_theme.get_html_theme_path()]
+html_favicon = os.path.join(html_theme_path[0], 'edx_theme', 'static', 'css', 'favicon.ico')
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -53,7 +55,8 @@ html_static_path = ['_static']
 # ones.
 extensions = [
     'sphinx.ext.imgmath',
-    'sphinxcontrib.yt'
+    'sphinxcontrib.yt',
+    'edx_theme'
 ]
 
 latex_elements = {
@@ -67,6 +70,9 @@ imgmath_add_tooltips = True
 imgmath_latex_preamble=r'\usepackage{physics}'
 imgmath_image_format='svg'
 
-
 master_doc = 'index'
 
+latex_documents = [
+    (master_doc, 'edx-sphinx-theme.tex', 'edx-sphinx-theme Documentation',
+     author, 'manual'),
+]
