@@ -39,11 +39,11 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 #html_theme = 'sphinx_rtd_theme'
-import edx_theme
-import os
+#import edx_theme
+#import os
 
-extensions = []
-html_theme = 'edx_theme'
+#extensions = []
+#html_theme = 'edx_theme'
 #html_theme_path = [edx_theme.get_html_theme_path()]
 #html_favicon = os.path.join(html_theme_path[0], 'edx_theme', 'static', 'css', 'favicon.ico')
 
@@ -70,17 +70,6 @@ latex_elements = {
 ''',
 }
 
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-#
-#html_theme = 'sphinx_rtd_theme'
-import edx_theme
-import os
-
-extensions = []
-html_theme = 'edx-theme'
-#html_theme_path = [edx_theme.get_html_theme_path()]
-#html_favicon = os.path.join(html_theme_path[0], 'edx_theme', 'static', 'css', 'favicon.ico')
 latex_show_urls = 'footnote'
 
 imgmath_add_tooltips = True
@@ -93,3 +82,12 @@ latex_documents = [
     (master_doc, 'edx-sphinx-theme.tex', 'edx-sphinx-theme Documentation',
      author, 'manual'),
 ]
+
+import edx_theme
+import os
+
+#extensions = ['edx_theme']
+
+html_theme = 'edx_theme'
+html_theme_path = [edx_theme.get_html_theme_path()]
+html_favicon = os.path.join(html_theme_path[0], 'edx_theme', 'static', 'css', 'favicon.ico')
