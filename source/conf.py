@@ -43,7 +43,7 @@ import edx_theme
 import os
 
 extensions = []
-html_theme = 'edx-theme'
+html_theme = 'edx_theme'
 #html_theme_path = [edx_theme.get_html_theme_path()]
 #html_favicon = os.path.join(html_theme_path[0], 'edx_theme', 'static', 'css', 'favicon.ico')
 
