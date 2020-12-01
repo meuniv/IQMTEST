@@ -14,7 +14,6 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-
 # -- Project information -----------------------------------------------------
 
 project = 'IQM Spring 2020'
@@ -39,7 +38,14 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+#html_theme = 'sphinx_rtd_theme'
+import edx_theme
+import os
+
+extensions = []
+html_theme = 'edx-theme'
+#html_theme_path = [edx_theme.get_html_theme_path()]
+#html_favicon = os.path.join(html_theme_path[0], 'edx_theme', 'static', 'css', 'favicon.ico')
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -52,7 +58,10 @@ html_static_path = ['_static']
 # ones.
 extensions = [
     'sphinx.ext.imgmath',
-    'sphinxcontrib.yt'
+    'sphinxcontrib.yt',
+    'sphinx.ext.todo',
+    'sphinx.ext.githubpages',
+    'edx_theme'
 ]
 
 latex_elements = {
@@ -60,12 +69,27 @@ latex_elements = {
 \usepackage{physics}
 ''',
 }
+
+# The theme to use for HTML and HTML Help pages.  See the documentation for
+# a list of builtin themes.
+#
+#html_theme = 'sphinx_rtd_theme'
+import edx_theme
+import os
+
+extensions = []
+html_theme = 'edx-theme'
+#html_theme_path = [edx_theme.get_html_theme_path()]
+#html_favicon = os.path.join(html_theme_path[0], 'edx_theme', 'static', 'css', 'favicon.ico')
 latex_show_urls = 'footnote'
 
 imgmath_add_tooltips = True
 imgmath_latex_preamble=r'\usepackage{physics}'
 imgmath_image_format='svg'
 
-
 master_doc = 'index'
 
+latex_documents = [
+    (master_doc, 'edx-sphinx-theme.tex', 'edx-sphinx-theme Documentation',
+     author, 'manual'),
+]
