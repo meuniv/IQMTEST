@@ -67,10 +67,8 @@ extensions = [
 latex_elements = {
     'preamble': r'''
 \usepackage{physics}
-latex_elements = {
-  'extraclassoptions': 'openany,oneside'
-}
 ''',
+'extraclassoptions': 'openany,oneside'
 }
 
 latex_show_urls = 'footnote'
