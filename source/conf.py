@@ -14,7 +14,8 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-
+import os
+import edx_theme
 # -- Project information -----------------------------------------------------
 
 project = 'IQM Spring 2020'
