@@ -1,2 +1,2 @@
 sphinxcontrib-yt
-open-edx-theme
+edx-sphinx-theme
